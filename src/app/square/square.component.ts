@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-square',
@@ -7,9 +7,6 @@ import { Component } from '@angular/core';
 })
 export class SquareComponent {
 
-  public random: Number;
+  @Input() value: 'X' | 'O';
 
-  constructor () {
-    this.random  = Math.round( Math.random() * 100 );
-  }
 }
