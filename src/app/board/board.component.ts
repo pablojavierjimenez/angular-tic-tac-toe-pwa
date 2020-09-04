@@ -56,6 +56,7 @@ export class BoardComponent implements OnInit {
         this.squares[a] === this.squares[b] &&
         this.squares[b] === this.squares[c]
       ) {
+        console.log(this.squares[a])
         return this.squares[a];
       }
     }

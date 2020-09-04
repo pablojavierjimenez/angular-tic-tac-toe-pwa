@@ -2,7 +2,7 @@
 
 create atic tac toe app based on [this tutorial](https://www.youtube.com/watch?v=G0bBLvWXBvc&ab_channel=Fireship)
 
-
+for this project use nebular theme
 
 
 

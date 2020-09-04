@@ -1,7 +1,16 @@
+
+.winner_X {
+  background-color: #00d68f;
+}
+.winner_O {
+  background-color: #0095ff;
+}
+
 main{
   display: grid;
   grid-template-columns: 150px 150px 150px;
   grid-gap: 0px;
+  justify-content: center;
 }
 
 
@@ -9,3 +18,4 @@ app-square {
   height: 150px;
   border: 1px solid grey;
 }
+
