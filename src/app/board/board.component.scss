@@ -1,3 +1,8 @@
+.winner {
+  padding:2vmin;
+  color: black;
+  margin-bottom: 2vmin;
+}
 
 .winner_X {
   background-color: #00d68f;
@@ -17,5 +22,8 @@ main{
 app-square {
   height: 150px;
   border: 1px solid grey;
+  .button {
+    color: black;
+  }
 }
 

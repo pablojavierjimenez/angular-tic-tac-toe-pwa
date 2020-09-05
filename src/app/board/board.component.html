@@ -9,14 +9,14 @@
   (click)="newGame()">start a new game </button>
 </div>
 <br>
-<h2 *ngIf="winner">
-  <span *ngIf="winner == 'X'" class="winner_X">
+<div *ngIf="winner">
+  <div *ngIf="winner == 'X'" class="winner winner_X">
     Player {{ winner }} is a WINNER!!!!
-  </span>
-  <span *ngIf="winner == 'O'" class="winner_O">
+  </div>
+  <div *ngIf="winner == 'O'" class="winner winner_O">
     Player {{ winner }} is a WINNER!!!!
-  </span>
-</h2>
+  </div>
+</div>
 
 </div>
 <main>
