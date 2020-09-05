@@ -13,17 +13,14 @@
 
 main{
   display: grid;
-  grid-template-columns: 150px 150px 150px;
-  grid-gap: 0px;
+  grid-template-columns: 120px 120px 120px;
+  grid-gap: 5px;
   justify-content: center;
 }
 
 
 app-square {
-  height: 150px;
+  height: 120px;
   border: 1px solid grey;
-  .button {
-    color: black;
-  }
 }
 

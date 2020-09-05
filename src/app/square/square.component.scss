@@ -1,6 +1,10 @@
 .button {
-  width: 150px;
+  width: 120px;
   height: inherit;
   color: black !important;
   font-size: 8vmin !important;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "angular-tic-tac-toe-pwa-20fb8": {
+      "hosting": {
+        "angular-tic-tac-toe-pwa": [
+          "angular-tic-tac-toe-pwa-20fb8"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "angularTicTacToePwa": "angular-tic-tac-toe-pwa-20fb8"
+  }
+}

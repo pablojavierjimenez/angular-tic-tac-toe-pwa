@@ -4,6 +4,16 @@ create atic tac toe app based on [this tutorial](https://www.youtube.com/watch?v
 
 for this project use nebular theme
 
+- before add the angular firebace first go to firebase console and create there a project to host your local app
+```bash
+ng add @angular/fire
+# if you face any issue go to setting the project try tu run
+firebase use --add
+# then run a production buil to create the dist folder
+ng build --prod
+# and then finally deploy to firebase
+firebase deploy
+```
 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.2.
