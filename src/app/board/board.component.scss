@@ -1,0 +1,26 @@
+.winner {
+  padding:2vmin;
+  color: black;
+  margin-bottom: 2vmin;
+}
+
+.winner_X {
+  background-color: #00d68f;
+}
+.winner_O {
+  background-color: #0095ff;
+}
+
+main{
+  display: grid;
+  grid-template-columns: 120px 120px 120px;
+  grid-gap: 5px;
+  justify-content: center;
+}
+
+
+app-square {
+  height: 120px;
+  border: 1px solid grey;
+}
+
